@@ -1,0 +1,17 @@
+metadata:
+  source: CC-CEDICT
+  language: zh
+  target_language: en
+  format: cedict
+  license: CC BY-SA 4.0
+  version: "1\r"
+  entry_count: 124008
+  date: "2025-10-19T21:55:48Z\r"
+entries:
+  - word: "\U00030EDD\U00030EDD面"
+    traditional: "\U00030EDE\U00030EDE麵"
+    simplified: "\U00030EDD\U00030EDD面"
+    pronunciation: biang2 biang2 mian4
+    translations:
+      - lang: en
+        text: 'broad, belt-shaped noodles, popular in Shaanxi'
