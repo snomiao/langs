@@ -1,37 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-
-interface WordData {
-  headword: string;
-  reading: string;
-  romanizedSpelling: string;
-  freq: string;
-}
-
-interface WordRow {
-  id: number;
-  headword_id: string;
-  headword: string;
-  yomi_display: string;
-  yomi1: string;
-  yomi2: string;
-  yomi3: string;
-  romaji_display: string;
-  romaji1: string;
-  romaji2: string;
-  romaji3: string;
-  sortkey: string;
-  freq: number;
-  basicword: boolean;
-  checked: boolean;
-}
-
-interface ApiResponse {
-  rows?: WordRow[];
-  total?: number;
-  page?: number;
-  records?: number;
-}
+import type { WordData, WordRow, ApiResponse } from "./types";
 
 async function fetchWithRetry(
   url: string,
@@ -297,3 +266,4 @@ if (import.meta.main) {
 }
 
 export { extractTWCData };
+export type { WordData } from "./types";
