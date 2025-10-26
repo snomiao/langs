@@ -1,6 +1,6 @@
 # README
 
-Linguistic research by snomiao. This repo collect or references language data, ideas, articles for language model research.
+Linguistic research by snomiao. This repo collect or references language data, ideas, articles for language model researches.
 
 ## References
 
