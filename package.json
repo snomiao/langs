@@ -1,19 +1,31 @@
 {
   "name": "@snomiao/langs",
   "version": "1.0.0",
-  "description": "- [(99+ 封私信 / 51 条消息) 不同语言之间的高频词是否存在显著差异？ - 知乎]( https://www.zhihu.com/question/1960848724029843047 ) > 不同语言之间的高频词是否存在显著差异？ - [そのボキャブラリーでどこまで理解できるのか？／英、仏、西、露、中、朝、日語の頻出順単語リストとカバー率 読書猿Classic: between / beyond readers]( https://readingmonkey.blog.fc2.com/blog-entry-594.html )",
-  "keywords": [],
+  "description": "Linguistic research tools and language corpus data collector. Includes Japanese word corpus extraction from TWC (Tsukuba Web Corpus) and language model research utilities.",
+  "keywords": [
+    "linguistics",
+    "corpus",
+    "language-model",
+    "nlp",
+    "japanese",
+    "twc",
+    "tsukuba-web-corpus",
+    "word-frequency",
+    "language-research"
+  ],
   "homepage": "https://github.com/snomiao/langs#readme",
   "bugs": {
     "url": "https://github.com/snomiao/langs/issues"
   },
   "license": "ISC",
-  "author": "",
+  "author": "snomiao@gmail.com",
   "files": [
-    "*.ts",
-    "dist"
+    "dist",
+    "ja",
+    "README.md",
+    "LICENSE"
   ],
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/snomiao/langs.git"
@@ -37,7 +49,7 @@
   "peerDependencies": {
     "typescript": "^5.9.3"
   },
-  "private": true,
+  "private": false,
   "type": "module",
   "exports": {
     "import": "./dist/index.js",
