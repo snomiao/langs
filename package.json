@@ -50,7 +50,7 @@
     "typescript": "^5.9.3"
   },
   "private": false,
-  "type": "commonjs",
+  "type": "module",
   "exports": {
     "import": "./dist/index.js",
     "types": "./index.ts"
