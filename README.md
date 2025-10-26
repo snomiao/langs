@@ -14,3 +14,4 @@ Linguistic research by snomiao. This repo collect or references language data, i
 
 - [README.md · ronantakizawa/japanese-text-difficulty at main]( https://huggingface.co/datasets/ronantakizawa/japanese-text-difficulty/blob/main/README.md?code=true#L50 )
 - [Japanese words frequency list data set : r/LearnJapanese]( https://www.reddit.com/r/LearnJapanese/comments/145rukd/japanese_words_frequency_list_data_set )
+- [日语词频词典 - NoHeartPen's Digital Garden - Obsidian Publish]( https://publish.obsidian.md/noheartpen/%E9%9D%9E%E8%BE%9E%E4%B9%A6/%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF/%E6%97%A5%E8%AF%AD%E8%AF%8D%E9%A2%91%E8%AF%8D%E5%85%B8 )
